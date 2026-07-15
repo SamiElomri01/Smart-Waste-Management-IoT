@@ -5,7 +5,7 @@ Système de tri des déchets 100% automatisé basé sur une architecture réseau
 🏗️ Architecture du Système
 Nœud Capteur (ESP32-S3) : Lit les capteurs (Ultrason + Humidité) et diffuse les données en Bluetooth Low Energy (BLE).
 
-<img width="1576" height="1600" alt="WhatsApp Image 2026-07-15 at 13 56 27" src="https://github.com/user-attachments/assets/508cc4d6-38a9-47e4-aac7-2de090ce8ec4" />
+<img width="1576" height="1600" alt="Shema how to work this Projetc" src="https://github.com/user-attachments/assets/508cc4d6-38a9-47e4-aac7-2de090ce8ec4" />
 
 Cerveau Central (Raspberry Pi) : Écoute le BLE, applique la logique de tri, envoie les ordres aux moteurs en Bluetooth Classic (SPP), et publie les résultats sur un broker MQTT.
 
@@ -68,4 +68,5 @@ Lancer le broker Mosquitto.
 
 Lancer le script python : python3 cerveau.py.
 
+<img width="1280" height="960" alt="Image Global" src="https://github.com/user-attachments/assets/1eeb460d-34a3-4486-bd20-5371a7fded0b" />
 
